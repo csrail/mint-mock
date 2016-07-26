@@ -6,8 +6,9 @@
  *
  * BASE
  * Section: 	Lead to Center
+ * Section:		Formsheet
  * Article: 	Form
- * Article:		Marketing
+ * Aside:			Marketing
  *
  * Header
  * Footer
@@ -18,10 +19,11 @@
   #LEAD TO CENTER
 ----------------------------*/
 
-section {
+#lead_to_center {
 	width: 800px;
 	margin: auto;
-	background-color: #b94b41;
+	background-color: #ccc;
+	padding-right: 10px;
 }
 
 /*----------------------------
@@ -29,23 +31,27 @@ section {
 ----------------------------*/
 
 header {
-  height: 300px;
-  background-color: #88ccaa
+  background-color: #fff;
+  padding-top: 62px;
+  margin-bottom: 10px;
 }
 
 .home--logo-mint {
-
+	display: inline-block
 }
 
 .user--access {
-	height: 30px;
-  background-color: #f6cab2;
-  float: right;
   list-style-type: none;
+  float: right;
+  margin-top: 20px;
+  margin-right: 6px;
+  font-family: "AvenirNext-DemiBold","Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
 }
 
 .user--button-signup {
 	display: inline-block;
+	font-weight: bold;
 }
 
 .user--button-login {
@@ -56,10 +62,30 @@ header {
 }
 
 /*----------------------------
+  #SECTION FORMSHEET
+----------------------------*/
+
+.user--formsheet {
+	background-color: red;
+}
+
+/*----------------------------
   #ARTICLE FORM
 ----------------------------*/
 .user--form {
 	background-color: #01a025;
+	min-height: 330px;
+	display: block;
+	float: left;
+	padding-top: 50px;
+	padding-left: 50px;
+	line-height:1.5;
+}
+
+.user--form-blurb {
+	width: 400px;
+	font-size: 30px;
+	font-family: "AvenirNext-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 label {
@@ -74,9 +100,20 @@ input {
 	display: inline-block;
 }
 
+.user--form-terms_and_conditions {
+	font-size: 10px;
+}
+
 /*----------------------------
-  #ARTICLE MARKETING
+  #ASIDE MARKETING
 ----------------------------*/
+
+.user--marketing {
+	width: 200px;
+	height: 600px;
+	background-color: #6a2388;
+	/*float: right;*/
+}
 
 /*----------------------------
   #FOOTER
@@ -84,5 +121,5 @@ input {
 
 /*----------------------------
 	#JUNK
-	"AvenirNext-DemiBold","Helvetica Neue",Helvetica,Arial,sans-serif
+	
 ----------------------------*/
