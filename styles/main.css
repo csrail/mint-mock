@@ -1,0 +1,88 @@
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global
+ *
+ * BASE
+ * Section: 	Lead to Center
+ * Article: 	Form
+ * Article:		Marketing
+ *
+ * Header
+ * Footer
+ *
+ */
+
+/*----------------------------
+  #LEAD TO CENTER
+----------------------------*/
+
+section {
+	width: 800px;
+	margin: auto;
+	background-color: #b94b41;
+}
+
+/*----------------------------
+  #HEADER
+----------------------------*/
+
+header {
+  height: 300px;
+  background-color: #88ccaa
+}
+
+.home--logo-mint {
+
+}
+
+.user--access {
+	height: 30px;
+  background-color: #f6cab2;
+  float: right;
+  list-style-type: none;
+}
+
+.user--button-signup {
+	display: inline-block;
+}
+
+.user--button-login {
+	display: inline-block;
+	padding-left: 6px;
+	margin-left: 6px;
+	border-left: 1px solid #ccc;
+}
+
+/*----------------------------
+  #ARTICLE FORM
+----------------------------*/
+.user--form {
+	background-color: #01a025;
+}
+
+label {
+	display: block;
+}
+
+input {
+	display: block;
+}
+
+.user--form-checkbox_remember_me {
+	display: inline-block;
+}
+
+/*----------------------------
+  #ARTICLE MARKETING
+----------------------------*/
+
+/*----------------------------
+  #FOOTER
+----------------------------*/
+
+/*----------------------------
+	#JUNK
+	"AvenirNext-DemiBold","Helvetica Neue",Helvetica,Arial,sans-serif
+----------------------------*/
