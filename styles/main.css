@@ -21,6 +21,7 @@
 ----------------------------*/
 body * {
 	font-family: 'Nunito', sans-serif;
+	line-height: 1.4
 }
 
 
@@ -31,7 +32,6 @@ body * {
 #lead_to_center {
 	width: 800px;
 	margin: auto;
-	background-color: #ccc;
 	padding-right: 10px;
 }
 
@@ -54,7 +54,6 @@ header {
   float: right;
   margin-top: 20px;
   margin-right: 6px;
-  font-family: "AvenirNext-DemiBold","Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
 
@@ -76,9 +75,11 @@ header {
 
 .user--formsheet {
 	padding-bottom: 50px;
-	border: 1px solid #ddd;
+	border: 1px solid #eee;
 	border-radius: 2px;
-	background-color: #FFBDBD;
+	box-shadow: 2px 1px 4px 1px #ddd;
+	/*background-color: #FFBDBD;*/
+	background-color: #fff;
 	overflow: hidden;
 }
 
@@ -111,7 +112,6 @@ label {
 
 input {
 	display: block;
-	
 }
 
 .user--form-textfield {
@@ -122,8 +122,16 @@ input {
 	border-radius: 3px;
 }
 
+/*===========================
+   A REALLY NICE LIME GREEN
+
 .spare {
 	background-color: #a6df7f
+}
+============================*/
+
+.user--form-remember_user_details {
+	margin-top: 10px;
 }
 
 .user--form-checkbox_remember_me{
@@ -131,8 +139,8 @@ input {
 }
 
 .user--form-text_remember_me {
-	background-color: #4083e6;
 	display: inline-block;
+	font-size: 13px;
 }
 
 .user--form-submit_button {
@@ -160,20 +168,42 @@ input {
 /*----------------------------
   #ASIDE MARKETING
 ----------------------------*/
-
-.user--marketing {
+.user--marketing-frame {
 	width: 200px;
-	height: 400px;
-	background-color: #fff;
 	float: right;
 	margin-top: 40px;
 	margin-right: 20px;
+	margin-left: 20px;
 	padding-left: 20px;
-	border-left: 1px solid #ccc;
+	overflow: hidden;
+	border-left: 2px solid #ccc;
+	/*background-color: #a6df7f;*/
+	background-color: white;
 }
 
-.user--marketing-frame {
+.user--marketing {
+	width: 160px;
+	height: 500px;
+	float: right;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 20px;
+	background-color: #F5F5F5;
+	color: #777;
+}
 
+.user--marketing-love_it {
+	font-size: 18px;
+}
+
+.user--marketing-benefits {
+	margin-left: 20px;
+	list-style-type: disc;
+	font-size: 12px;
+}
+
+.user--marketing-link {
+	color: #777;
 }
 
 /*----------------------------
@@ -181,6 +211,5 @@ input {
 ----------------------------*/
 
 /*----------------------------
-	#JUNK
-	
+	#JUNK	
 ----------------------------*/
