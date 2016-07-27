@@ -9,10 +9,11 @@
  * Section:		Formsheet
  * Article: 	Form
  * Aside:			Marketing
- *
+ * 
  * Header
  * Footer
  *
+ * Eggs: 			A Really Nice Lime Green
  */
 
 
@@ -30,7 +31,7 @@ body * {
 ----------------------------*/
 
 #lead_to_center {
-	width: 800px;
+	width: 804px;
 	margin: auto;
 	padding-right: 10px;
 }
@@ -42,7 +43,7 @@ body * {
 header {
   background-color: #fff;
   padding-top: 62px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .home--logo-mint {
@@ -117,9 +118,11 @@ input {
 .user--form-textfield {
 	width: 300px;
 	height: 28px;
+	padding-left: 8px;
 	margin-top: 10px;
 	border: 1px solid #d8d8d8;
 	border-radius: 3px;
+	font-size: 12px;
 }
 
 /*===========================
@@ -209,6 +212,61 @@ input {
 /*----------------------------
   #FOOTER
 ----------------------------*/
+
+footer {
+	margin-top: 30px;
+	margin-bottom: 100px;
+	width: 804px;
+}
+
+.wrapper--footer--links {
+	margin-left: 60px;
+}
+
+.footer--legalities {
+	
+}
+
+.footer--links {
+	display: inline-block;
+	border-right: 1px solid #ccc;
+	padding-right: 12px;
+	padding-left: 12px;
+	font-size: 14px;
+}
+
+.footer--links:last-child {
+	border-right: none;
+}
+
+.footer--links a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+.supporting--security-links {
+	width: 140px;
+	height: 58px;
+	margin: auto;
+}
+
+.wrapper--footer-security_links {
+	width: 285px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.copyright--stamp {
+	font-size: 12px;
+	color: #aaa;
+}
+
+.wrapper--copyright_stamp {
+	width: 220px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
 
 /*----------------------------
 	#JUNK	

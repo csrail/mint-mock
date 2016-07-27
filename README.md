@@ -17,3 +17,5 @@ Thanks [@codyloyd](https://github.com/codyloyd) for suggesting the [Nunito](http
 - Then you specify it in the CSS: `font-family: 'Nunito', sans-serif;`
 
 Thanks [@kevinmulhern](https://github.com/KevinMulhern) for the `overflow: hidden` CSS tip to keep the background colours of parent containers visible while developing the page. (It can also be fixed by adding a fixed height for the parent element or by using the `clear` setting.)
+
+Egg count: 1.
