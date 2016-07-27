@@ -12,4 +12,8 @@ It also uses a modified version of BEM formatting in the CSS style sheet. The CS
 From [The Odin Project's](http://www.theodinproject.com/html5-and-css3/html-forms) curriculum.
 
 ##Excursions
-No wanderings this time.
+Thanks @codyloyd for suggesting the [Nunito](https://fonts.google.com/specimen/Nunito?selection.family=Nunito) font which is quite similar to the original.
+- You first embed the font in the HTML: `<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> `
+- Then you specify it in the CSS: `font-family: 'Nunito', sans-serif;`
+
+Thanks @kevinmulhern for the `overflow: hidden` CSS tip to keep the background colours of parent containers visible while developing the page. (It can also be fixed by adding a fixed height for the parent element or by using the `clear` setting.)
