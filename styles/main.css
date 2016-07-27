@@ -15,6 +15,15 @@
  *
  */
 
+
+/*----------------------------
+  #GLOBAL
+----------------------------*/
+body * {
+	font-family: 'Nunito', sans-serif;
+}
+
+
 /*----------------------------
   #LEAD TO CENTER
 ----------------------------*/
@@ -66,42 +75,86 @@ header {
 ----------------------------*/
 
 .user--formsheet {
-	background-color: red;
+	padding-bottom: 50px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	background-color: #FFBDBD;
+	overflow: hidden;
 }
 
 /*----------------------------
   #ARTICLE FORM
 ----------------------------*/
 .user--form {
-	background-color: #01a025;
+	background-color: white;
 	min-height: 330px;
 	display: block;
 	float: left;
 	padding-top: 50px;
 	padding-left: 50px;
-	line-height:1.5;
+	line-height:1.4;
 }
 
 .user--form-blurb {
 	width: 400px;
+	padding-bottom: 30px;
 	font-size: 30px;
-	font-family: "AvenirNext-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #111;
 }
 
 label {
 	display: block;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #444;
 }
 
 input {
 	display: block;
+	
 }
 
-.user--form-checkbox_remember_me {
+.user--form-textfield {
+	width: 300px;
+	height: 28px;
+	margin-top: 10px;
+	border: 1px solid #d8d8d8;
+	border-radius: 3px;
+}
+
+.spare {
+	background-color: #a6df7f
+}
+
+.user--form-checkbox_remember_me{
 	display: inline-block;
 }
 
+.user--form-text_remember_me {
+	background-color: #4083e6;
+	display: inline-block;
+}
+
+.user--form-submit_button {
+	background-color: #45CAE6;
+	margin-top: 20px;
+	padding: 4px 14px 4px 14px;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	text-align: center;
+	
+}
+
 .user--form-terms_and_conditions {
-	font-size: 10px;
+	margin-top: 10px;
+	font-size: 13px;
+	color: #aaa;
+}
+
+.user--form-link_to_legalities {
+	text-decoration: none;
+	color: #45CAE6;
 }
 
 /*----------------------------
@@ -110,9 +163,17 @@ input {
 
 .user--marketing {
 	width: 200px;
-	height: 600px;
-	background-color: #6a2388;
-	/*float: right;*/
+	height: 400px;
+	background-color: #fff;
+	float: right;
+	margin-top: 40px;
+	margin-right: 20px;
+	padding-left: 20px;
+	border-left: 1px solid #ccc;
+}
+
+.user--marketing-frame {
+
 }
 
 /*----------------------------
