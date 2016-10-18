@@ -1,7 +1,7 @@
 ##Exploration
 A static mock website of [Mint.com](https://wwws.mint.com/login.event?task=S).
 
-Check out my [version](https://rawgit.com/csrail/mint-mock/master/sign-up.html).
+Check out my [version](https://csrail.github.io/mint-mock/).
 
 ##Exposition
 This project is backed by a new understanding of html5 principles:
